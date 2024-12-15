@@ -1,0 +1,34 @@
+
+Proyecto Final - Gestor de Tareas con Interfaz Gráfica
+Enunciado del Proyecto Final: Gestor de Tareas con Interfaz Gráfica
+Descripción del Proyecto: El proyecto consiste en desarrollar una aplicación que permita a los usuarios gestionar una lista de tareas. Las tareas tendrán propiedades como título, descripción, estado (pendiente o completada) y prioridad. vamos a usar una interfaz gráfica para facilitar la interacción con estas funcionalidades.
+
+Estructura del Proyecto:
+
+Clases sugeridas:
+
+Tarea: Representa una tarea con propiedades como título, descripción, estado y prioridad.
+GestorTareas: Gestiona la colección de tareas y proporciona métodos para añadir, eliminar, modificar y listar tareas.
+Interfaz: Gestiona la interfaz donde vamos a tener pantallas graficas y botones para poder accionar las funcionalidades del gestor de tareas.
+Interfaz gráfica (Tkinter o cualquier otra que guste):
+
+Ventana principal con:
+Formulario para añadir tareas.
+Lista para visualizar tareas.
+Botones para modificar o eliminar tareas seleccionadas.
+Opciones que debe tener el programa:
+Filtro por estado de las tareas (pendiente o completada).
+Botón para exportar la lista de tareas. CSV o Json.
+Botón para importar tareas mediante un archivo. CSV o Json.
+Ampliaciones opcionales:
+Persistencia de datos:
+
+Guardar y cargar tareas desde un archivo JSON o base de datos SQLite.
+Estilos y diseño avanzado:
+
+Personalizar la interfaz con ttk y temas.
+Filtros y búsqueda:
+
+Agregar opciones para buscar tareas y filtrar por prioridad o nombre.
+
+
